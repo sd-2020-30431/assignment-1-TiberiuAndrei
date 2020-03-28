@@ -1,0 +1,12 @@
+C:\TemaSD\WasteLess\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\TemaSD\WasteLess\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\TemaSD\WasteLess\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\TemaSD\WasteLess\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\TemaSD\WasteLess\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+C:\TemaSD\WasteLess\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
