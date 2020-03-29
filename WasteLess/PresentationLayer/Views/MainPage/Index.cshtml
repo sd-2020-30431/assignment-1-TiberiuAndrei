@@ -1,0 +1,11 @@
+﻿@model BusinessLayer.Models.BUsername
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Welcome back @Model.Username</h4>
+<p>
+    <h6>
+        <a asp-action="List" asp-route-username="@Model.Username">See your items</a>
+    </h6>
+</p>

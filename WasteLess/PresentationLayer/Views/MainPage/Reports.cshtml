@@ -1,0 +1,137 @@
+﻿@model BusinessLayer.Managers.Reports.FullReport
+@{
+    ViewData["Title"] = "Reports";
+}
+
+@ViewData["username"]
+
+<h1>Reports</h1>
+
+<a asp-action="Donate" asp-route-username="@ViewData["username"]">Donate exces</a>
+<br />
+
+<font size="3">Weekly items</font>
+<br />
+<font size="3">Total number of wasted items: </font> <font size="3" color="red"> @Model.wr.quantity</font>
+<br />
+<font size="3">Total number of wasted calories: </font> <font size="3" color="red"> @Model.wr.calories</font>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.wr.foodItemList[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wr.foodItemList[0].Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wr.foodItemList[0].Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wr.foodItemList[0].PurchaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wr.foodItemList[0].ExpDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wr.foodItemList[0].ConsDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.wr.foodItemList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calories)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PurchaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExpDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ConsDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<font size="3">Monthly items</font>
+<br />
+<font size="3">Total number of wasted items: </font> <font size="3" color="red"> @Model.mr.quantity</font>
+<br />
+<font size="3">Total number of wasted calories: </font> <font size="3" color="red"> @Model.mr.calories</font>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].PurchaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].ExpDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].ConsDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mr.foodItemList[0].User_id)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.mr.foodItemList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calories)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PurchaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExpDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ConsDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User_id)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
