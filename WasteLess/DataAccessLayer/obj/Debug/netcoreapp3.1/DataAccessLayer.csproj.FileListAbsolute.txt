@@ -1,0 +1,12 @@
+C:\SD\WasteLess\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\SD\WasteLess\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\SD\WasteLess\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+C:\SD\WasteLess\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+C:\SD\WasteLess\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\SD\WasteLess\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.genruntimeconfig.cache
