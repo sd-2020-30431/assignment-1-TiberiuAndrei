@@ -1,1 +1,1 @@
-All the requirements have been implemented. 
+All requirements have been implemented. 
